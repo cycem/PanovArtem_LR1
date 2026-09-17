@@ -2,7 +2,7 @@ using System.IO;
 
 namespace calc.src.main.services
 {
-    public class HistoryService
+    public class HistoryService : IHistoryService
     {
         private readonly string _logFile = "history.log";
 

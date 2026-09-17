@@ -58,6 +58,8 @@
     </ApplicationDefinition>
     <Compile Include="src\main\services\CalculatorService.cs" />
     <Compile Include="src\main\services\HistoryService.cs" />
+    <Compile Include="src\main\services\ICalculatorService.cs" />
+    <Compile Include="src\main\services\IHistoryService.cs" />
     <Compile Include="src\main\views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -92,6 +94,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="ARTIFACTS.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

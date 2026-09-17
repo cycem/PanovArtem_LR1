@@ -2,7 +2,7 @@
 
 namespace calc.src.main.services
 {
-    public class CalculatorService
+    public class CalculatorService : ICalculatorService
     {
         public double Calculate(string expr)
         {
